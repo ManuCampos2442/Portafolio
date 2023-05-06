@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Se define el charset para que en otros navegadores se puedan ver todos los caracteres especiales. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!------------------------------------------------------------------------------------------------------------>
+
+
+    <!-- En este punto se inserta la fuente de texto que se recomienda usar en el Trello. "Signika"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Signika+Negative:wght@300&display=swap"
+        rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------------------------------------------------------------------------------------------------>
+
+
+    <!-- Se conecta el archivo CSS y el archivo JavaScript con la pagina web. Tambien se le da el titulo de la pagina -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+    <title>Reto #1</title>
+    <!------------------------------------------------------------------------------------------------------------>
+</head>
+
+<body>
+
+    <!-- Se inserta el logo de Alura el cual va a estar en la parte superior a la izquierda -->
+    <img id="logoAlura" src="Imagenes/Vector.png" alt="">
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!-- En el centro de la pagina un poco a la izquierda, esta el textarea donde el usuario escribe una frase o 
+    una palabra para encriptarla o desencriptarla -->
+    <textarea id="textareaInput" placeholder="Ingrese texto aqui"></textarea>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!-- Este div hace referencia al rectangulo del lado derecho de la pagina web -->
+    <div id="rectangulo1">
+
+        <!-- Se inserta tanto la imagen del muchacho de rodillas con la lupa y el mensaje que se se encuentra debajo de
+        este -->
+        <img id="logoPersona" src="Imagenes/Muñeco.png" alt="muñeco">
+        <img id="palabras" src="Imagenes/Frame 5.png" alt="palabrasAd">
+
+        <!-- En textarea va a ir tanto el mensaje encriptado, como el desencriptado que haya escrito el usuario -->
+        <textarea id="miTextarea"></textarea>
+
+        <!-- Un boton que copia automaticamente el mensaje que haya en el textarea-->
+        <button id="copiar">Copiar</button>
+
+    </div>
+    <!------------------------------------------------------------------------------------------------------------>
+
+
+    <!-- El boton encargado de hacer la encriptación de la frease o palabra que haya escrito el usuario -->
+    <button id="encriptar">Encriptar</button>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!-- Boton encargado de desencriptar un mensaje que haya escrito el usuario teniendo en cuenta las condiciones que
+    tiene la pagina para ello -->
+    <button id="desencriptar">Desencriptar</button>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!-- Por ultimo un footer que dice quien fue el desarrollador de la pagina web, es decir, mi persona -->
+    <footer>Hecho Por: Juan Manuel Guarnizo Campos</footer>
+    <!------------------------------------------------------------------------------------------------------------>
+
+</body>
+
+</html>

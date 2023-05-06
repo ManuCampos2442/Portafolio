@@ -1,0 +1,245 @@
+/*
+    Define los estilos de todo el cuerpo de la página, como el margen y el color de fondo
+*/
+body {
+
+    margin: 0;
+    background-color: #F3F5FC;
+
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de un elemento con el identificador "rectangulo1". Este elemento tiene una posición absoluta,
+ un ancho de 340 píxeles, una altura de 580 píxeles, una sombra y un fondo blanco. También tiene una esquina
+ redondeada de 32 píxeles. */
+#rectangulo1 {
+
+    position: absolute;
+
+    width: 340px;
+    height: 580px;
+    left: 999px;
+    top: 15px;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+    border-radius: 32px;
+
+    background-color: #FFFFFF;
+
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de un elemento de texto de entrada con el identificador "textareaInput". 
+Este elemento tiene una posición absoluta, un tamaño y una ubicación específicos, un color de texto y un tamaño de fuente.
+También tiene un fondo y un borde, así como un marcador de posición con un color de texto diferente
+ */
+#textareaInput {
+
+    position: absolute;
+    top: 110px;
+    left: 160px;
+    color: #0A3871;
+    font-size: 25px;
+    border: 0;
+    width: 670px;
+    height: 200px;
+    background-color: #F3F5FC;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Este apartado se encarga de hacer de color azul las letras que se encuentran de fondo en el campo de texto del usuario */
+#textareaInput::placeholder {
+    color: #0A3871;
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de un botón con el identificador "encriptar". Este botón tiene una posición absoluta, 
+un tamaño y una ubicación específicos, un color de texto y un tamaño de fuente. También tiene un fondo y un borde con 
+un color específico, una esquina redondeada y un cursor que cambia cuando se coloca sobre él.
+ */
+#encriptar {
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+
+    color: #FFFFFF;
+
+    width: 290px;
+    height: 67px;
+
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    border: 0;
+
+    top: 505px;
+    left: 150px;
+
+    cursor: pointer;
+
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de otro botón con el identificador "desencriptar". Este botón tiene características similares 
+al botón anterior, pero con diferentes estilos visuales
+ */
+#desencriptar {
+
+    position: absolute;
+
+    width: 290px;
+    height: 67px;
+    top: 505px;
+    left: 470px;
+    border-radius: 24px;
+
+    border: solid 0.5px #0A3871;
+
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+
+    color: #0A3871;
+
+    background-color: #F3F5FC;
+
+    cursor: pointer;
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de un tercer botón con el identificador "copiar". Este botón tiene características similares a 
+los otros dos botones, pero con una propiedad  */
+#copiar {
+
+    display: none;
+
+    position: absolute;
+
+    width: 290px;
+    height: 67px;
+    top: 490px;
+    left: 26px;
+    border-radius: 24px;
+
+    border: solid 0.5px #0A3871;
+
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+
+    color: #0A3871;
+
+    background-color: #ffffff;
+
+    cursor: pointer;
+
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de una imagen con el identificador "logoAlura". Esta imagen se mueve 50 píxeles 
+a la derecha y 20 píxeles hacia abajo de su posición inicial */
+#logoAlura {
+
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de otro elemento de texto de entrada con el identificador "miTextarea". Este elemento se
+ oculta inicialmente (con la propiedad  */
+#miTextarea {
+
+    display: none;
+
+    position: absolute;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 25px;
+
+    color: #0A3871;
+
+    border: 0;
+    width: 296px;
+    height: 400px;
+    top: 50px;
+    left: 7%;
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de otra imagen con el identificador "logoPersona". Esta imagen se mueve 30 píxeles a la 
+izquierda y 80 píxeles hacia arriba de su posición inicial
+ */
+#logoPersona {
+
+    position: absolute;
+
+    left: 30px;
+    top: 80px;
+
+    width: 280px;
+    height: 280px;
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de un elemento de texto con el identificador "palabras". Este elemento tiene una posición absoluta, 
+un ancho específico y una ubicación específica */
+#palabras {
+    position: absolute;
+
+    width: 250px;
+    left: 50px;
+    top: 370px;
+}
+
+/* ______________________________________________________________________________________________________ */
+
+
+/* Define los estilos de un pie de página con un color de fondo y un tamaño específicos, así como un color de 
+texto y una fuente específicos. Este pie de página tiene una posición absoluta y está centrado en la parte
+inferior de la página */
+footer {
+
+    position: absolute;
+    top: 650px;
+    height: 80px;
+    background-color: #0A3871;
+    width: 100%;
+
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+/* ______________________________________________________________________________________________________ */
